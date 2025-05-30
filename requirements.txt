@@ -1,6 +1,6 @@
 bcrypt==4.2.0
 blinker==1.8.2
-cryptography==43.0.1
+cryptography==44.0.1
 Flask==3.0.3
 Flask-Compress==1.15
 Flask-Cors==5.0.0
@@ -16,4 +16,7 @@ requests==2.32.3
 requests-hawk==1.2.1
 sentry-sdk[flask]==2.13.0
 StrEnum==0.4.15
-werkzeug==3.0.4
+werkzeug==3.0.6
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
